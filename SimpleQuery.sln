@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimpleQueryBuilder.Core", "SimpleQueryBuilder.Core\SimpleQueryBuilder.Core.fsproj", "{01F6FD8C-83D7-4913-B7F2-89C678864AC4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimpleQueryBuilder.Postgres", "SimpleQueryBuilder.Postgres\SimpleQueryBuilder.Postgres.fsproj", "{3365B653-9105-4CBD-B1BD-5CFCE70DC7EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{11702214-B40A-40A0-A5CB-FBCFEFC9DD9E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimpleQueryBuilder.Postgres.Tests", "SimpleQueryBuilder.Postgres.Tests\SimpleQueryBuilder.Postgres.Tests.fsproj", "{F59990FC-6E80-4047-B1BD-5B6B50396CA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F6FD8C-83D7-4913-B7F2-89C678864AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F6FD8C-83D7-4913-B7F2-89C678864AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F6FD8C-83D7-4913-B7F2-89C678864AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F6FD8C-83D7-4913-B7F2-89C678864AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3365B653-9105-4CBD-B1BD-5CFCE70DC7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3365B653-9105-4CBD-B1BD-5CFCE70DC7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3365B653-9105-4CBD-B1BD-5CFCE70DC7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3365B653-9105-4CBD-B1BD-5CFCE70DC7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59990FC-6E80-4047-B1BD-5B6B50396CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59990FC-6E80-4047-B1BD-5B6B50396CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59990FC-6E80-4047-B1BD-5B6B50396CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59990FC-6E80-4047-B1BD-5B6B50396CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
